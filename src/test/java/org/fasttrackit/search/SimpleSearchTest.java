@@ -1,10 +1,14 @@
+//I.new project bla bla 2. click 1st folder new file .gitignore .idea *.iml
+//3. cand faci un proiect nou trebuie sa google:selenium java maven + copy la dependency + paste in .pomxml
+// + updatarea ultimei versiuni de junit [modificarea in ceea ce e scris deja cu ce gasesti pe ggle.
+//II. java org.fasttractit new class
 //fiecare test va fi o metoda publica
+
 //va fi void ca testul nu va returna nimic, ci doar va face niste actiuni si atat
 // "\" tine loc de ghilimele intre ghilimele. escape character
 //in pagina click dreapta - inspect. a- ancore e tagul pentru linkuri
 //un tag, atribute- keye+valoare
-//cand faci un proiect nou trebuie sa google:selenium java maven + copy la dependency       + updatarea ultimei versiuni de junit [modificarea in ceea ce e scris deja cu ce gasesti pe ggle.
-//2. java org.fasttractit new class
+
 
 package org.fasttrackit.search;
 
@@ -18,7 +22,7 @@ public class SimpleSearchTest {
 
     //transformam metoda intr un test: deasupra metodei punem o adnotare adica @
     @Test
-    public void SimpleSearchWithOneKeyWord(){
+    public void SimpleSearchWithOneKeyWord() {
         System.setProperty("webdriver.chrome.driver",
                 "C:\\drivers\\chromedriver.exe"); // copy paste erorii pe care am primit o si pasii de pe primul link
         WebDriver driver = new ChromeDriver();
@@ -30,6 +34,5 @@ public class SimpleSearchTest {
         //by. partiallinktext putem da o portiune din acel text: add to wish- iddentifica corect
         //by. name - input, button, orice
         //preferam id, name, classname, linktext. trb sa cautam atributul care e cel mai putin probabil sa fie schimbat in viitor.
-
-}}
+    }}
 
