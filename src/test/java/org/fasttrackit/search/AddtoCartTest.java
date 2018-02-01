@@ -15,9 +15,8 @@ public class AddtoCartTest {
             WebDriver driver = new ChromeDriver();
             driver.get("https://fasttrackit.org/selenium-test/");
             driver.findElement(By.id("search")).sendKeys("vase" + Keys.ENTER);
-            driver.findElement(By.xpath("//div[@class='product-info' and ./descendant::*[text()='Herald Glass Vase']]//button[contains(@class, 'btn-cart')]”)).click();"));
+            driver.findElement(By.xpath("//div[@class='product-info' and ./descendant::*[text()='Herald Glass Vase']]//button[contains(@class, 'btn-cart')]")).click();
 
         }}
 
 
-//errooorrr
